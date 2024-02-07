@@ -1,8 +1,8 @@
-import Tours from "./Tours.jsx";
+import Tours from "./StopWatch.jsx";
 function App(){
   return(
     <>
-      <Tours />
+      <StopWatch />
     </>
   );
 }
