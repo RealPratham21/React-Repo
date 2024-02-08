@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-image: url('https://media.meero.com/blog-media/759/9795b8f3-fbc7-4f1e-ae49-f3379daa434f.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.time-now{
+    font-size: 4.5em;
+    color: white;
+    backdrop-filter: blur(2px);
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px whitesmoke;
+}
