@@ -1,8 +1,8 @@
-import Tours from "./Tours.jsx";
+import Calc from "./Calc.jsx";
 function App(){
   return(
     <>
-      <Tours />
+      <Calc />
     </>
   );
 }
