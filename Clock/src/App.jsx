@@ -1,8 +1,8 @@
-import Bday from "./Bday.jsx";
+import Clock from "./Clock.jsx";
 function App(){
   return(
     <>
-      <Bday />
+      <Clock />
     </>
   );
 }
