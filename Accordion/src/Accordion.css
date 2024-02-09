@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(194, 93%, 89%);
+    height: 100vh;
+}
+.parent-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px 40px;
+    width: 720px;
+    max-width: 720px;
+    margin: auto auto;
+    margin-top: 70px;
+}
+.Heading{
+    font-size: 3em;
+    font-weight: lighter;
+    color: hsl(0, 0%, 20%);
+}
+.ques-list{
+    font-size: 1.3em;
+    padding: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid hsl(272, 56%, 83%);
+    margin-top: 30px;
+    width: 650px;
+}
+.fa-solid{
+    margin-left: auto;
+}
+.Ques-Part{
+    display: flex;
+    align-items: center;
+}
+.Ans-Part{
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 0%, 32%);
+}
