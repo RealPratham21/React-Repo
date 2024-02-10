@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Great+Vibes&family=Heebo&family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans:wght@400;500&family=Oswald:wght@300&display=swap');
+/* font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal; */
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.point{
+    margin-top: 20px;
+}
+.parent-div{
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: 250px 850px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar button{
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.title{
+    font-size: 2rem;
+}
+.company{
+    color: hsl(0, 0%, 17%);
+    background-color: hsla(0, 0%, 81%, 0.822);
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.tenure{
+    color: hsla(270, 13%, 48%, 0.747);
+    margin-top: 10px;
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.point-info{
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+i{
+    color: gray;
+}
