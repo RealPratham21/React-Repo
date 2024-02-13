@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 22px 20px;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 0px 0px 10px hsl(0, 0%, 82%);
+}
+.Tabs{
+    display: flex;
+    flex-direction: row;
+}
+.Pages{
+    margin-right: 10px;
+    font-size: 1.25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: color 0.5s ease-in-out;
+}
+.Company{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: blue;
+    letter-spacing: 2px;
+}
+.SocialLinks{
+    color: hsl(195, 73%, 68%);
+}
+.fa-brands{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Pages:hover{
+    color: hsl(195, 73%, 68%);
+}
+.NavBar .fa-solid{
+    display: none;
+}
+.AltOptions{
+    width: 100vw;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 15px;
+    max-height: 0; /* Change height to max-height */
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 2s ease-in-out, opacity 2s  ease-in-out; /* Use max-height for transition */
+}
+.AltPages{
+    margin-top: 10px;
+}
+.AltOptions.show{
+    max-height: 500px;
+    opacity: 1;
+}
+@media screen and (max-width: 800px) {
+    .NavBar{
+        justify-content: space-between;
+        padding: 22px 10px;
+        box-shadow: none;
+    }
+    .SocialLinks, .Tabs{
+        display: none;
+    }
+    .NavBar .fa-solid{
+        display: flex;
+        color: black;
+        font-size: 1.5em;
+    }
+}
