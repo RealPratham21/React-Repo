@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    display: flex;
+    background-color: hsl(271, 83%, 38%);
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.75em;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 97.5vw;
+}
+.Cart{
+    position: relative;
+    height: 50px;
+    width: 45px;
+    display: flex;
+    align-items: flex-end;
+}
+.Cart span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: hsl(212, 63%, 50%);
+    padding: 2px 10px;
+    border-radius: 50%;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.myBag{
+    font-size: 3em;
+    text-align: center;
+    margin-top: 60px;
+}
+.thecart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.items{
+    display: flex;
+    width: 700px;
+    align-items: center;
+    margin-top: 20px;
+}
+.item-image{
+    width: 80px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    font-size: 1.5em;
+}
+.options i{
+    cursor: pointer;
+}
+.name{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: hsl(0, 0%, 20%);
+    letter-spacing: 1.5px;
+}
+.price{
+    color: hsl(0, 0%, 35%);
+}
+.remove{
+    color: hsl(240, 70%, 51%);
+}
+.remove span{
+    cursor: pointer;
+}
+.remove-all{
+    text-align: center;
+}
+.remove-all button{
+    font-size: 1.15em;
+    padding: 2px 10px;
+    background-color: hsla(240, 47%, 62%, 0.473);
+    text-align: center;
+    color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+hr{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 1px;
+    border: none;
+    background-color: hsl(0, 0%, 60%);
+    color: hsl(0, 0%, 60%);
+}
+.billing{
+    width: 700px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+.total-price{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
