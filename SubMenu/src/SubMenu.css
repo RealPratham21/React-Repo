@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.parentdiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, hsl(240, 53%, 49%), hsl(258, 46%, 37%));
+}
+.heading{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: white;
+}
+.siteinfo{
+    color: white;
+    margin-top: 20px;
+}
+.metadata{
+    width: 800px;
+    text-align: center;
+    margin-top: 100px;
+}
+.NavBar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    padding: 20px 20px;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+}
+.NavBar > *{
+    cursor: pointer;
+    color: white;
+}
+.BrandName{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.Contents{
+    width: 700px;
+    min-height: 100px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    top: 15vh;
+    border-radius: 5px;
+    padding: 22px 30px;
+    transition: 2s height ease-in-out;
+}
+.TabOptions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.TabOptions i{
+    padding-right: 10px;
+}
+.TabNow{
+    font-size: 1.25em;
+    color: darkblue;
+    letter-spacing: 1.5px;
+}
