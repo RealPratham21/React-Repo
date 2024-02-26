@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px 120px;
+}
+.Heading{
+    font-size: 3em;
+    font-weight: 500;
+}
+.textbelow{
+    margin-top: 30px;
+    color: hsla(0, 0%, 30%, 0.89);
+}

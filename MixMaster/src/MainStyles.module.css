@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.page{
+    width: auto;
+    min-height: 100vh;
+    height: auto;
+    background-color: hsl(0, 0%, 98%);
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

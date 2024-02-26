@@ -1,0 +1,93 @@
+.container{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: yellow; */
+    height: auto;
+    justify-items: center;
+    margin-top: 50px;
+    padding: 10px 10px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.imageofdrink{
+    width: 300px;
+    height: 220px;
+}
+.SearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px hsl(0, 0%, 73%);
+}
+.InpBar{
+    width: 500px;
+    border: 1px solid hsla(0, 0%, 64%, 0.342);
+    height: 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: hsla(0, 0%, 83%, 0.144);
+}
+.search{
+    border: none;
+    background-color: hsl(120, 45%, 41%);
+    color: white;
+    letter-spacing: 1.5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.drink{
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 20px gray;
+}
+.title{
+    padding: 2px 20px;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.35px;
+}
+.glass{
+    padding: 2px 20px;
+    font-size: 1.5em;
+    letter-spacing: 1.35px;
+}
+.type{
+    padding: 2px 20px;
+    color: hsl(0, 0%, 31%);
+}
+.details{
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.1em;
+    background-color: hsla(120, 65%, 30%, 0.658);
+    padding: 3px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    transition: 1s background-color ease;
+}
+.details:hover{
+    background-color: hsl(120, 65%, 30%);
+}
+.details *{
+    color: white;
+}
+.noDrinks{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 60px;
+}

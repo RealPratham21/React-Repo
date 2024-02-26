@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abtDrink{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 850px;
+    margin-top: 50px;
+}
+.drinkImage{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+}
+.drinkInfo{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+.drinkInfo > *{
+    margin-top: 20px;
+}
+.drinkInfo span{
+    color: green;
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsla(120, 71%, 55%, 0.459);
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+.NameInfo{
+    margin-left: 10px;
+}
+.bckbtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsla(120, 52%, 35%, 0.795);
+    transition: 1s background-color ease;
+    cursor: pointer;
+}
+.bckbtn:hover{
+    background-color: hsla(120, 52%, 29%, 0.986);
+}
+.bckbtn *{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.goHome{
+    margin-top: 50px;
+}
+.Loading{
+    margin-top: 150px;
+    width: 500px;
+}
