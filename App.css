@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-image: url("https://www.biospace.com/getasset/65f65805-c8c8-472e-b6ad-09640c69b652/");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 25px 30px;
+  backdrop-filter: blur(3px);
+  background-color: hsla(0, 0%, 100%, 0.185);
+  border: 4px solid hsla(0, 0%, 100%, 0.404);
+  border-radius: 5px;
+  margin-top: 40px;
+  color: black;
+  box-shadow: 0px 0px 90px white;
+}
+.to_box, .exchange_btn{
+  margin-top: 30px;
+}
+input{
+  width: 350px;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+.input-heading, .output-heading{
+  color: white;
+  font-weight: 500;
+}
+.exchange_btn{
+  border: 2px solid hsla(0, 0%, 100%, 0.377);
+  background-color: hsla(0, 0%, 100%, 0.158);
+  backdrop-filter: blur(4px);
+  border-radius: 5px;
+  font-weight: 500;
+  transition: 0.25s all ease-in-out;
+  color: hsla(0, 0%, 100%, 0.986);
+  cursor: pointer;
+  padding: 6px 4px;
+}
+.exchange_btn:hover{
+  background-color: hsla(0, 0%, 100%, 0.664);
+  color: hsla(0, 100%, 100%, 0.897);
+  box-shadow: 0px 0px 10px lightblue;
+}
+.input_stuff{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.output_stuff{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+select{
+  height: 33px;
+  width: 60px;
+}
+.greet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.main_heading{
+  color: white;
+  text-shadow: 0px 0px 10px white;
+  font-size: 3em;
+}
+.info{
+  font-weight: 500;
+  font-size: 1.25em;
+}
