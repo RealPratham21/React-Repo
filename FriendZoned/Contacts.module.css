@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: 50px;
+}
+.box > *{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+.name_box{
+    margin-top: 35px;
+    font-size: 1.5em;
+}
+.name_box > input{
+    margin-left: 20px;
+    width: 400px;
+    height: 30px;
+    color: black;
+    font-size: 1.1em;
+}
+.email_zone{
+    margin-top: 35px;
+    font-size: 1.5em;
+}
+.email_zone > input{
+    margin-left: 20px;
+    width: 400px;
+    height: 30px;
+    color: black;
+    font-size: 1.1em;
+}
+.message_zone{
+    margin-top: 35px;
+    font-size: 1.5em;
+}
+.message_zone > textarea{
+    margin-left: 20px;
+    width: 400px;
+    height: 80px;
+    color: black;
+}
+.submit{
+    border: none;
+    padding: 5px 12px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: hsla(120, 38%, 41%, 0.76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+}
+.submit:hover{
+    background-color: hsla(120, 44%, 54%, 0.829);
+}
+.btn_zone{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
